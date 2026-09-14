@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Separate label for the question shown to the user -->
+    <label id="question-label" for="button-count"></label>
+
+    <!-- User chooses the number of buttons from 3 to 7 -->
+    <input
+        id="button-count"
+        type="number"
+        min="3"
+        max="7"
+    >
+
+    <!-- Starts a new memory game -->
+    <button id="go-button"></button>
+
+    <!-- Memory buttons are added here by JavaScript -->
+    <div id="game-area"></div>
+
+    <!-- Displays the success or wrong-order message -->
+    <p id="game-message"></p>
+
+    <!-- Loads the main JavaScript file as a module -->
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
