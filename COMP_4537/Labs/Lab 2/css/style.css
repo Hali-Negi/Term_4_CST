@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: rgb(211, 199, 199);
+}
+
+h1 {
+    font-size: 26px;
+}
+
+#stored-time,
+#retrieved-time {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Textarea and remove button */
+textarea + button {
+    margin-right: 10px;
+}
+
+/* Notes container */
+#notes-container div {
+    margin-bottom: 10px;
+}
+/* Textarea */
+textarea {
+    width: 350px;
+    height: 110px;
+    background-color: #22519d;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+/* Remove button */
+#notes-container button {
+    margin-left: 5px;
+}
+
+/* Reader page */
+#reader-notes textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+    background-color: #e0e0e0;
+    border: 1px solid #6f5959;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Remove buttons */
+#notes-container div button {
+    background-color: rgb(123, 62, 144);
+    color: white;
+    border-radius: 10px 0px 10px 0px; 
+    
+}
+
+/* Add button */
+#notes-container > button {
+    background-color: rgb(18, 143, 18);
+    color: white;
+    border-radius: 10px 0px 10px 0px;
+}
+
+/* Back button */
+a {
+    /*allows the link to behave more like a button */
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: black;
+    border: 1px solid #999;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 10px 0px 10px 0px;
+}
